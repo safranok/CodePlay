@@ -1,0 +1,5 @@
+{
+  "name": "CodePlay",
+  "description": "A production-ready online code compiler with multi-language support, dark mode, and secure execution.",
+  "requestFramePermissions": []
+}

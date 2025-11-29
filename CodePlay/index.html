@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="dark" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodePlay - Premium Compiler</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+            },
+            colors: {
+              black: '#000000',
+              gray: {
+                850: '#1f2937',
+                900: '#111111',
+                925: '#161616',
+                950: '#0a0a0a',
+                premium: '#1A1A1A'
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "@monaco-editor/react": "https://aistudiocdn.com/@monaco-editor/react@^4.7.0",
+    "lz-string": "https://aistudiocdn.com/lz-string@^1.5.0",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "axios": "https://aistudiocdn.com/axios@^1.13.2",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0",
+    "express-rate-limit": "https://aistudiocdn.com/express-rate-limit@^8.2.1",
+    "http": "https://aistudiocdn.com/http@^0.0.1-security",
+    "https": "https://aistudiocdn.com/https@^1.0.0"
+  }
+}
+</script>
+<style>
+  body {
+    background-color: #0D0D0D;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  html.light body {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  /* Custom Scrollbar for premium look */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  html.dark ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  html.light ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+  }
+  html.dark ::-webkit-scrollbar-thumb {
+    background: #333;
+  }
+  html.dark ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  html.light ::-webkit-scrollbar-thumb {
+    background: #ccc;
+  }
+  html.light ::-webkit-scrollbar-thumb:hover {
+    background: #999;
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

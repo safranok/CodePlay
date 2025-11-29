@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npm run dev -- --host
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:3000
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: npx ts-node server/server.ts
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      # Point to the local docker service name 'piston' on port 2000
+      - PISTON_URL=http://piston:2000
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - piston
+
+  piston:
+    image: ghcr.io/engineer-man/piston:latest
+    restart: always
+    # Piston runs on port 2000 internally
+    expose:
+      - "2000"
+    tmpfs:
+      - /tmp
+    volumes:
+      - piston_data:/piston
+
+volumes:
+  piston_data:
