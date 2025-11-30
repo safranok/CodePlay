@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Outer C Shape -->
+  <path d="M75 30 L65 20 H35 L25 30 V70 L35 80 H65 L75 70" stroke="#F97316" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Inner C Shape -->
+  <path d="M65 40 L60 35 H40 L35 40 V60 L40 65 H60 L65 60" stroke="#F97316" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
