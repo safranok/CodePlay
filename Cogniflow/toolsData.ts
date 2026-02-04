@@ -1,0 +1,799 @@
+
+export const toolsData = {
+  "tools": {
+    "runway-gen4": {
+      "id": "runway-gen4",
+      "name": "Runway Gen-4",
+      "category": "Video",
+      "description": "Cinematic AI video generation with advanced camera controls",
+      "pricing": "$12-95/month",
+      "pricingTier": "Premium",
+      "bestFor": "Professional filmmakers and content creators",
+      "keyFeatures": [
+        "Advanced camera controls",
+        "Cinematic quality output",
+        "4K resolution support",
+        "Motion tracking",
+        "Professional-grade lighting"
+      ],
+      "pros": [
+        "Industry-leading video quality",
+        "Precise camera control",
+        "Great for professional projects",
+        "Excellent motion physics"
+      ],
+      "cons": [
+        "Higher pricing tier",
+        "Steeper learning curve",
+        "Requires powerful hardware"
+      ],
+      "useCases": [
+        "Commercial video production",
+        "Film pre-visualization",
+        "High-end social media content",
+        "Marketing videos"
+      ],
+      "difficulty": "Advanced",
+      "generationSpeed": "2-5 minutes",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 7,
+        "value": 8,
+        "features": 9,
+        "support": 8
+      }
+    },
+    "sora-2": {
+      "id": "sora-2",
+      "name": "Sora 2",
+      "category": "Video",
+      "description": "OpenAI's narrative-focused video generator with dialogue capabilities",
+      "pricing": "$20/month",
+      "pricingTier": "Premium",
+      "bestFor": "Storytellers and narrative content creators",
+      "keyFeatures": [
+        "Natural dialogue generation",
+        "Story-driven scenes",
+        "Character consistency",
+        "Multiple scene support",
+        "Voice synthesis integration"
+      ],
+      "pros": [
+        "Excellent for narrative content",
+        "Great character consistency",
+        "Natural dialogue integration",
+        "Multiple scene handling"
+      ],
+      "cons": [
+        "Premium pricing",
+        "Limited to narrative style",
+        "Waitlist for access"
+      ],
+      "useCases": [
+        "Short films",
+        "Educational videos",
+        "Story-based marketing",
+        "Animation concepts"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "1-3 minutes",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 9,
+        "value": 7,
+        "features": 8,
+        "support": 8
+      }
+    },
+    "google-veo-32": {
+      "id": "google-veo-32",
+      "name": "Google Veo 3.2",
+      "category": "Video",
+      "description": "Film-grade lighting and motion stability for professional output",
+      "pricing": "Free trial, then $15/month",
+      "pricingTier": "Mid-range",
+      "bestFor": "Professional videographers needing cinematic quality",
+      "keyFeatures": [
+        "Film-grade lighting control",
+        "Advanced motion stability",
+        "Color grading presets",
+        "Professional rendering",
+        "Batch processing"
+      ],
+      "pros": [
+        "Excellent lighting simulation",
+        "Very stable motion",
+        "Professional color grading",
+        "Fast rendering"
+      ],
+      "cons": [
+        "Requires Google account",
+        "Limited free tier",
+        "Learning curve for advanced features"
+      ],
+      "useCases": [
+        "Professional video production",
+        "Commercial advertising",
+        "Documentary footage",
+        "Corporate videos"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "3-6 minutes",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 8,
+        "value": 8,
+        "features": 8,
+        "support": 9
+      }
+    },
+    "kling-26": {
+      "id": "kling-26",
+      "name": "Kling 2.6",
+      "category": "Video",
+      "description": "Cost-efficient cinematic AI video generator with strong realism",
+      "pricing": "$8-40/month",
+      "pricingTier": "Budget-friendly",
+      "bestFor": "Budget-conscious creators needing realistic video",
+      "keyFeatures": [
+        "Realistic motion physics",
+        "Cost-effective pricing",
+        "Fast generation",
+        "Good quality-to-price ratio",
+        "Simple interface"
+      ],
+      "pros": [
+        "Very affordable",
+        "Good realistic output",
+        "Fast processing",
+        "Easy to use"
+      ],
+      "cons": [
+        "Lower resolution than competitors",
+        "Fewer advanced controls",
+        "Limited customization"
+      ],
+      "useCases": [
+        "Social media content",
+        "Quick video mockups",
+        "Budget marketing videos",
+        "Personal projects"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "1-2 minutes",
+      "ratings": {
+        "quality": 7,
+        "easeOfUse": 9,
+        "value": 10,
+        "features": 6,
+        "support": 7
+      }
+    },
+    "pika-21": {
+      "id": "pika-21",
+      "name": "Pika 2.1",
+      "category": "Video",
+      "description": "HD 1080p video generation with Pikadditions feature",
+      "pricing": "$10-58/month",
+      "pricingTier": "Mid-range",
+      "bestFor": "Creators needing HD video with special effects",
+      "keyFeatures": [
+        "1080p HD output",
+        "Pikadditions feature library",
+        "Motion effects",
+        "Style presets",
+        "Community templates"
+      ],
+      "pros": [
+        "True HD quality",
+        "Great effects library",
+        "Active community",
+        "Regular updates"
+      ],
+      "cons": [
+        "Mid-tier pricing",
+        "Some effects require learning",
+        "Credits system can be limiting"
+      ],
+      "useCases": [
+        "YouTube videos",
+        "Social media ads",
+        "Product demos",
+        "Explainer videos"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "2-4 minutes",
+      "ratings": {
+        "quality": 8,
+        "easeOfUse": 8,
+        "value": 8,
+        "features": 9,
+        "support": 8
+      }
+    },
+    "chatgpt": {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "Text",
+      "description": "OpenAI's conversational AI for versatile text generation",
+      "pricing": "Free / $20/month Pro",
+      "pricingTier": "Freemium",
+      "bestFor": "General writing, coding, and conversation",
+      "keyFeatures": [
+        "Conversational interface",
+        "Multi-turn dialogue",
+        "Code generation",
+        "Web search capability",
+        "Image analysis"
+      ],
+      "pros": [
+        "Very versatile",
+        "Easy to use",
+        "Free tier available",
+        "Large knowledge base",
+        "Fast responses"
+      ],
+      "cons": [
+        "Can be too verbose",
+        "May generate incorrect info",
+        "Limited customization",
+        "Rate limits on free tier"
+      ],
+      "useCases": [
+        "Content writing",
+        "Code debugging",
+        "Research assistance",
+        "Brainstorming ideas",
+        "Email drafting"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "Instant",
+      "ratings": {
+        "quality": 8,
+        "easeOfUse": 10,
+        "value": 10,
+        "features": 9,
+        "support": 8
+      }
+    },
+    "claude": {
+      "id": "claude",
+      "name": "Claude",
+      "category": "Text",
+      "description": "Anthropic's AI assistant excelling in long-form content and coding",
+      "pricing": "Free / $20/month Pro",
+      "pricingTier": "Freemium",
+      "bestFor": "Long-form writing and technical content",
+      "keyFeatures": [
+        "200K context window",
+        "Excellent coding ability",
+        "Document analysis",
+        "Longer outputs",
+        "Nuanced understanding"
+      ],
+      "pros": [
+        "Handles very long documents",
+        "Great for coding",
+        "More nuanced responses",
+        "Better at following instructions",
+        "Ethical AI focus"
+      ],
+      "cons": [
+        "Slower than competitors",
+        "Smaller user base",
+        "Limited integrations",
+        "More conservative responses"
+      ],
+      "useCases": [
+        "Technical documentation",
+        "Code review",
+        "Long-form articles",
+        "Research papers",
+        "Legal document analysis"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "Fast",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 9,
+        "value": 9,
+        "features": 8,
+        "support": 8
+      }
+    },
+    "jasper": {
+      "id": "jasper",
+      "name": "Jasper",
+      "category": "Text",
+      "description": "Premium AI writing tool for marketers with 50+ templates",
+      "pricing": "$39-125/month",
+      "pricingTier": "Premium",
+      "bestFor": "Marketing teams and content agencies",
+      "keyFeatures": [
+        "50+ content templates",
+        "Brand voice training",
+        "SEO integration",
+        "Team collaboration",
+        "Marketing-focused"
+      ],
+      "pros": [
+        "Excellent for marketing",
+        "Great templates",
+        "Team features",
+        "Brand consistency",
+        "SEO tools built-in"
+      ],
+      "cons": [
+        "Expensive pricing",
+        "Overkill for individuals",
+        "Learning curve for all features",
+        "Requires subscription"
+      ],
+      "useCases": [
+        "Marketing copy",
+        "Ad campaigns",
+        "Blog posts",
+        "Social media content",
+        "Email marketing"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "Fast",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 8,
+        "value": 7,
+        "features": 10,
+        "support": 9
+      }
+    },
+    "midjourney-v7": {
+      "id": "midjourney-v7",
+      "name": "Midjourney v7",
+      "category": "Art",
+      "description": "Industry-leading aesthetic quality and creative control",
+      "pricing": "$10-120/month",
+      "pricingTier": "Premium",
+      "bestFor": "Professional artists and designers",
+      "keyFeatures": [
+        "Stunning aesthetic quality",
+        "Advanced prompt controls",
+        "Style consistency",
+        "High resolution outputs",
+        "Community gallery"
+      ],
+      "pros": [
+        "Best-in-class aesthetics",
+        "Highly detailed outputs",
+        "Great artistic styles",
+        "Active community",
+        "Regular updates"
+      ],
+      "cons": [
+        "Discord-only interface",
+        "No free tier",
+        "Learning curve for prompts",
+        "Public by default"
+      ],
+      "useCases": [
+        "Professional artwork",
+        "Book covers",
+        "Concept art",
+        "Marketing visuals",
+        "NFT art"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "30-60 seconds",
+      "ratings": {
+        "quality": 10,
+        "easeOfUse": 7,
+        "value": 8,
+        "features": 9,
+        "support": 8
+      }
+    },
+    "dalle-3": {
+      "id": "dalle-3",
+      "name": "DALL-E 3",
+      "category": "Art",
+      "description": "Advanced AI art generation with prompt accuracy",
+      "pricing": "$20/month via ChatGPT Plus",
+      "pricingTier": "Mid-range",
+      "bestFor": "Users wanting accurate prompt interpretation",
+      "keyFeatures": [
+        "Excellent prompt accuracy",
+        "Safe content filters",
+        "Integrated with ChatGPT",
+        "Natural language prompts",
+        "Consistent quality"
+      ],
+      "pros": [
+        "Best prompt understanding",
+        "Safe and ethical",
+        "Easy to use",
+        "Good text rendering",
+        "ChatGPT integration"
+      ],
+      "cons": [
+        "Requires ChatGPT Plus",
+        "Limited customization",
+        "Slower than competitors",
+        "Content restrictions"
+      ],
+      "useCases": [
+        "Blog illustrations",
+        "Social media graphics",
+        "Product mockups",
+        "Educational content",
+        "Presentation visuals"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "15-30 seconds",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 10,
+        "value": 8,
+        "features": 8,
+        "support": 9
+      }
+    },
+    "suno-ai": {
+      "id": "suno-ai",
+      "name": "Suno AI",
+      "category": "Audio",
+      "description": "Complete song generation with vocals and lyrics",
+      "pricing": "Free / $10/month Pro",
+      "pricingTier": "Freemium",
+      "bestFor": "Musicians and content creators needing full songs",
+      "keyFeatures": [
+        "Full song generation",
+        "AI vocals and lyrics",
+        "Multiple genres",
+        "Custom lyrics support",
+        "Commercial use license"
+      ],
+      "pros": [
+        "Complete song creation",
+        "Great vocal quality",
+        "Many music styles",
+        "Affordable pricing",
+        "Commercial license"
+      ],
+      "cons": [
+        "Limited free credits",
+        "Some repetitive patterns",
+        "Can't edit individual stems",
+        "Queue wait times"
+      ],
+      "useCases": [
+        "Background music",
+        "Content creation",
+        "Music demos",
+        "Podcast intros",
+        "Video soundtracks"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "1-2 minutes",
+      "ratings": {
+        "quality": 8,
+        "easeOfUse": 10,
+        "value": 9,
+        "features": 8,
+        "support": 7
+      }
+    },
+    "udio": {
+      "id": "udio",
+      "name": "Udio",
+      "category": "Audio",
+      "description": "Professional-quality AI music with tight vocal flow",
+      "pricing": "$10/month Standard",
+      "pricingTier": "Mid-range",
+      "bestFor": "Producers needing professional music quality",
+      "keyFeatures": [
+        "Professional audio quality",
+        "Tight vocal performance",
+        "Genre versatility",
+        "Stem separation",
+        "Extended song length"
+      ],
+      "pros": [
+        "Superior audio quality",
+        "Professional vocals",
+        "Good genre coverage",
+        "Can extend songs",
+        "Stem downloads"
+      ],
+      "cons": [
+        "No free tier",
+        "Smaller community",
+        "Fewer style options",
+        "Beta limitations"
+      ],
+      "useCases": [
+        "Professional music production",
+        "Commercial projects",
+        "Film scoring",
+        "Album creation",
+        "Music licensing"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "2-3 minutes",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 8,
+        "value": 8,
+        "features": 8,
+        "support": 7
+      }
+    },
+    "github-copilot": {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "category": "Code",
+      "description": "Industry-leading AI pair programmer",
+      "pricing": "$10/month or $100/year",
+      "pricingTier": "Mid-range",
+      "bestFor": "Professional developers coding daily",
+      "keyFeatures": [
+        "Real-time code suggestions",
+        "Multi-language support",
+        "Context-aware completions",
+        "IDE integration",
+        "Code explanation"
+      ],
+      "pros": [
+        "Best code suggestions",
+        "Wide language support",
+        "Great IDE integration",
+        "Fast and accurate",
+        "Constantly improving"
+      ],
+      "cons": [
+        "Subscription required",
+        "Privacy concerns",
+        "Can suggest outdated code",
+        "Needs internet connection"
+      ],
+      "useCases": [
+        "Daily coding",
+        "Learning new languages",
+        "Boilerplate generation",
+        "Code documentation",
+        "Bug fixing"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "Instant",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 10,
+        "value": 9,
+        "features": 9,
+        "support": 9
+      }
+    },
+    "cursor": {
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "Code",
+      "description": "AI-first code editor with agent mode",
+      "pricing": "$20/month Pro",
+      "pricingTier": "Mid-range",
+      "bestFor": "Developers wanting AI-native coding experience",
+      "keyFeatures": [
+        "AI agent mode",
+        "Codebase understanding",
+        "Chat with your code",
+        "Multi-file editing",
+        "VS Code fork"
+      ],
+      "pros": [
+        "Deep code understanding",
+        "Agent mode is powerful",
+        "Familiar VS Code interface",
+        "Great for refactoring",
+        "Active development"
+      ],
+      "cons": [
+        "Higher price point",
+        "Resource intensive",
+        "Beta features unstable",
+        "Learning curve for AI features"
+      ],
+      "useCases": [
+        "Large codebase work",
+        "Code refactoring",
+        "Architecture planning",
+        "Bug hunting",
+        "Code migration"
+      ],
+      "difficulty": "Intermediate",
+      "generationSpeed": "Instant to Fast",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 8,
+        "value": 8,
+        "features": 10,
+        "support": 8
+      }
+    },
+    "zapier": {
+      "id": "zapier",
+      "name": "Zapier",
+      "category": "Business",
+      "description": "AI orchestration layer connecting 8,000+ apps",
+      "pricing": "Free / $29.99+/month",
+      "pricingTier": "Freemium",
+      "bestFor": "Businesses automating workflows across apps",
+      "keyFeatures": [
+        "8000+ app integrations",
+        "No-code automation",
+        "Multi-step workflows",
+        "AI-powered features",
+        "Team collaboration"
+      ],
+      "pros": [
+        "Massive app ecosystem",
+        "Easy to use",
+        "Powerful automations",
+        "Great documentation",
+        "Reliable uptime"
+      ],
+      "cons": [
+        "Can get expensive",
+        "Task limits on free plan",
+        "Complex zaps need premium",
+        "Learning curve for advanced"
+      ],
+      "useCases": [
+        "Marketing automation",
+        "Sales workflows",
+        "Data synchronization",
+        "Lead management",
+        "Report generation"
+      ],
+      "difficulty": "Beginner to Intermediate",
+      "generationSpeed": "Instant",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 9,
+        "value": 8,
+        "features": 10,
+        "support": 9
+      }
+    },
+    "perplexity-ai": {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "category": "Data",
+      "description": "Research assistant with real-time cited answers",
+      "pricing": "Free / $20/month Pro",
+      "pricingTier": "Freemium",
+      "bestFor": "Researchers needing cited, accurate information",
+      "keyFeatures": [
+        "Real-time web search",
+        "Source citations",
+        "Follow-up questions",
+        "Research threads",
+        "Academic mode"
+      ],
+      "pros": [
+        "Excellent citations",
+        "Current information",
+        "Clean interface",
+        "Good for research",
+        "Accurate responses"
+      ],
+      "cons": [
+        "Limited free searches",
+        "Can be slow",
+        "Premium for best features",
+        "Smaller than ChatGPT"
+      ],
+      "useCases": [
+        "Academic research",
+        "Fact-checking",
+        "Market research",
+        "News analysis",
+        "Technical research"
+      ],
+      "difficulty": "Beginner",
+      "generationSpeed": "Fast",
+      "ratings": {
+        "quality": 9,
+        "easeOfUse": 10,
+        "value": 8,
+        "features": 8,
+        "support": 7
+      }
+    }
+  },
+  "popularComparisons": {
+    "chatgpt-vs-claude": {
+      "headline": "ChatGPT vs Claude: Which AI Assistant is Right for You?",
+      "summary": "Both are powerful AI assistants, but they excel in different areas. ChatGPT offers broader versatility and ecosystem, while Claude excels at long-form content and technical precision.",
+      "winner": "tie",
+      "recommendations": {
+        "chatgpt": "Choose ChatGPT if you need versatile everyday AI, wide app integrations, faster responses, and general-purpose assistance.",
+        "claude": "Choose Claude if you work with long documents, need precise technical writing, want better instruction-following, or handle complex analysis."
+      },
+      "keyDifferences": [
+        "ChatGPT has faster response times and wider ecosystem",
+        "Claude handles longer documents (200K vs 128K tokens)",
+        "ChatGPT better for general conversation",
+        "Claude better for technical documentation",
+        "ChatGPT has more third-party integrations",
+        "Claude more conservative and careful with responses"
+      ]
+    },
+    "runway-gen4-vs-sora-2": {
+      "headline": "Runway Gen-4 vs Sora 2: The Ultimate AI Video Showdown",
+      "summary": "Both deliver stunning AI-generated video, but serve different creative needs. Runway Gen-4 dominates in cinematic control, while Sora 2 excels in narrative storytelling.",
+      "winner": "depends",
+      "recommendations": {
+        "runway": "Choose Runway Gen-4 for professional video production, precise camera controls, commercial projects, and cinematic quality output.",
+        "sora": "Choose Sora 2 for narrative content, story-driven videos, dialogue integration, and character-consistent scenes."
+      },
+      "keyDifferences": [
+        "Runway offers advanced camera control tools",
+        "Sora provides better dialogue integration",
+        "Runway faster for professional workflows",
+        "Sora better for multi-scene narratives",
+        "Runway more expensive but more control",
+        "Sora simpler interface for storytellers"
+      ]
+    },
+    "midjourney-v7-vs-dalle-3": {
+      "headline": "Midjourney v7 vs DALL-E 3: Best AI Art Generator 2025",
+      "summary": "The two titans of AI art generation. Midjourney leads in aesthetic quality and artistic styles, while DALL-E 3 wins on prompt accuracy and ease of use.",
+      "winner": "midjourney",
+      "recommendations": {
+        "midjourney": "Choose Midjourney for professional artwork, stunning aesthetics, creative projects, detailed fantasy art, and when quality is paramount.",
+        "dalle3": "Choose DALL-E 3 for quick iterations, accurate prompt following, beginner-friendly creation, and ChatGPT integration."
+      },
+      "keyDifferences": [
+        "Midjourney produces more artistic, aesthetic results",
+        "DALL-E 3 better understands complex prompts",
+        "Midjourney requires Discord interface",
+        "DALL-E 3 integrated into ChatGPT",
+        "Midjourney better for professional artists",
+        "DALL-E 3 easier for beginners"
+      ]
+    },
+    "github-copilot-vs-cursor": {
+      "headline": "GitHub Copilot vs Cursor: Best AI Coding Assistant 2025",
+      "summary": "Both revolutionize coding with AI. Copilot offers best-in-class code suggestions, while Cursor provides deeper codebase understanding with agent mode.",
+      "winner": "depends",
+      "recommendations": {
+        "github-copilot": "Choose GitHub Copilot for inline coding suggestions, multi-IDE support, enterprise teams, and reliable daily coding assistant.",
+        "cursor": "Choose Cursor for large codebase work, complex refactoring, architectural planning, and when you need AI that understands your entire project."
+      },
+      "keyDifferences": [
+        "Copilot better for inline suggestions",
+        "Cursor better for codebase-wide understanding",
+        "Copilot works in multiple IDEs",
+        "Cursor is a standalone VS Code fork",
+        "Copilot more affordable ($10/mo)",
+        "Cursor more powerful with agent mode ($20/mo)"
+      ]
+    },
+    "suno-ai-vs-udio": {
+      "headline": "Suno AI vs Udio: Which AI Music Generator Wins?",
+      "summary": "Both create full songs with AI, but target different users. Suno AI offers accessibility and variety, while Udio focuses on professional audio quality.",
+      "winner": "suno",
+      "recommendations": {
+        "suno": "Choose Suno AI for content creation, diverse genres, quick music generation, affordable pricing, and ease of use.",
+        "udio": "Choose Udio for professional music production, superior audio quality, commercial projects, and when quality trumps speed."
+      },
+      "keyDifferences": [
+        "Suno more beginner-friendly",
+        "Udio has better audio quality",
+        "Suno has free tier",
+        "Udio better for professional use",
+        "Suno faster generation",
+        "Udio provides stem separation"
+      ]
+    }
+  }
+};
+
+export default toolsData;
